@@ -1,0 +1,66 @@
+.card {
+  margin-top: 70px;
+  margin-left: 250px;
+  border-radius: 10px;
+}
+
+.card-body {
+  text-align: left;
+  padding: 70px;
+  margin-bottom: 5px;
+  background-image: url("images/sky.jpg");
+}
+
+.temperature {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  font-size: 36px;
+}
+
+.units {
+  position: absolute;
+  top: 10px;
+  left: 58px;
+  font-size: 30px;
+}
+
+.weather {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 20px;
+}
+
+h1 {
+  text-align: left;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 24px;
+}
+
+.days {
+  font-size: 20px;
+  text-align: center;
+}
+
+.col-sm {
+  text-align: center;
+}
+
+.fa-cloud-sun {
+  font-size: 30px;
+  color: #9b9a8b;
+}
+
+.fa-sun {
+  font-size: 30px;
+  color: #ead431;
+}
+
+.temp {
+  font-size: 28px;
+  text-align: center;
+}
