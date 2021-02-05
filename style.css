@@ -27,6 +27,7 @@
 
 .weather {
   position: absolute;
+  list-style: none;
   top: 20px;
   right: 30px;
   font-size: 20px;
