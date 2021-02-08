@@ -14,72 +14,52 @@
 </head>
 
 <body>
-    <div class="conatiner">
+    <div class="container">
         <div class="weather-app">
+            <form id="serach-city" class="mb-4">
+                <div class="row">
+                    <div class="col-9">
+                        <input type="search" placeholder="Enter City" class="form-control" />
+                    </div>
+                    <div class="col-3">
+                        <input type="submit" value="Search" />
+                    </div>
+                </div>
+            </form>
             <div class="row">
-                <span class="temperature" id="temperature"></span><span class="units">° C</span>
-                <p class="day-time" id="current-date"></p>
-                <ul class="weather">
-                    <li> Humidity <span id="humidity"></span>%</li>
-                    <li>Wind <span id="wind"></span>km/h</li>
-                </ul>
-                <br />
-                <br />
-                <form id="search-city">
-                    <div class="row">
-                        <div class="col-2">
-                            <input type="search" placeholder="Enter City" class="cityButton" id="city-input" />
-                        </div>
-                        <div class="col-2">
-                            <input type="submit" value="Search" />
-                        </div>
-                        <div class="col-2">
-                            <button type="button" id="current-city">Current</button>
-                        </div>
-                    </div>
-                </form>
-                <br />
-                <h1 id="city" </h1>
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                    <h5 class="card-title">Forecast</h5>
-                    <div class="row">
-                        <div class="col-sm">
-                            <p class="days">Monday</p>
-                            <i class="fas fa-cloud-sun"></i>
-                            <br />
-                            <p class="temp">45°</p>
-                        </div>
-                        <div class="col-sm">
-                            <p class="days">Tuesday</p>
-                            <i class="fas fa-cloud-sun"></i>
-                            <br />
-                            <p class="temp">43°</p>
-                        </div>
-                        <div class="col-sm">
-                            <p class="days">Wednesday</p>
-                            <i class="fas fa-sun"></i>
-                            <br />
-                            <p class="temp">41°</p>
-                        </div>
-                        <div class="col-sm">
-                            <p class="days">Thursday</p>
-                            <i class="fas fa-sun"></i>
-                            <br />
-                            <p class="temp">43°</p>
-                        </div>
-                        <div class="col-sm">
-                            <p class="days">Friday</p>
-                            <i class="fas fa-cloud-sun"></i>
-                            <br />
-                            <p class="temp">39°</p>
-                        </div>
-                    </div>
+                <div class="col-6">
+                    <h1 id="city">
+                    </h1>
+                </div>
+                <div class="col-6">
+                    Monday 12:08
+                </div>
             </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="temperature">
+                        <strong id="city-temperature"></strong>
+                        <span class="units">
+                            °C | <a href="#" style="text-decoration:none">°F</a>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <ul>
+                        <li>
+                            Humidity
+                        </li>
+                        <li>
+                            Precipitation
+                        </li>
+                        <li>
+                            Wind
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
         </div>
-    </div>
     </div>
     <small><a href="https://github.com/Emsnyder94/shecodes-weather-app-project" Open Source Code> by Elizabeth Snyder</a></small>
     <script src="script.js"></script>
