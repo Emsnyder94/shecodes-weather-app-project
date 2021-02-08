@@ -4,6 +4,7 @@
   padding: 90px;
   border: 1px solid #afafaf;
   border-radius: 10px;
+  background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
 }
 
 h1 {
