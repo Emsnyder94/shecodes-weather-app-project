@@ -37,14 +37,13 @@ function displayTemperature(response){
 
 function search(city){
 let apiKey="0a41317b31ebed3d5245fc696b6b07f2";
-    let location = "New York"
     let apiUrl=`https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}&units=metric`;
     axios.get(apiUrl).then(displayTemperature);
   }
 
 function handleSubmit(event){
   event.preventDefault();
-  let cityInputElement = document.querySelector("#city-input").value;
+  let cityInputElement = document.querySelector("#city-input");
   search(cityInputElement.value);
 }
 
