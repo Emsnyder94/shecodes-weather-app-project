@@ -41,3 +41,28 @@ li {
   color: #134275;
   cursor: default;
 }
+
+.forecast h3 {
+  color: #134275;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  height: 15px;
+  line-height: 15px;
+  padding-top: 7px;
+}
+
+.forecast-temp {
+  color: #134275;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  height: auto;
+  line-height: 15px;
+}
+
+.forecast i {
+  text-align: center;
+  margin: 0 auto;
+  width: 48px;
+}
