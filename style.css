@@ -1,6 +1,9 @@
-.weather-app {
+.weather-app-wrapper {
   max-width: 600px;
   margin: 0 auto;
+}
+
+.weather-app {
   padding: 90px;
   border: 1px solid #afafaf;
   border-radius: 10px;
