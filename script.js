@@ -52,4 +52,5 @@ search("New York");
     let form = document.querySelector("#search-city");
     form.addEventListener("submit", handleSubmit);
 
+    let farenheitLink = document.querySelector("#farenheit-link");
 
